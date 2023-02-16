@@ -60,3 +60,6 @@ Please make sure to update tests as appropriate.
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
+
+# Contact
+If you have any questions or comments, please contact me at rghassen@outlook.fr
