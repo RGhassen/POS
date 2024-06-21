@@ -7,7 +7,7 @@ require('dotenv').config()
 const DBconnect = async ()=>{
     try {
         
-        await mongoose.connect(mongodb+srv://rg:TEST123@cluster0.0lbc9ru.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0,
+        await mongoose.connect(process.env.MONGO_URI,
             {useNewUrlParser : true,
             useUnifiedTopology : true},()=>console.log("DB connected")) ;
         }
